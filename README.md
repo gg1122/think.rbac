@@ -1,6 +1,6 @@
 ![](https://box.kancloud.cn/901503ed89e363a1dd81101346bba4eb_1366x768.png)
 ![](https://box.kancloud.cn/76079027c0d079fda05cd443aa5f84de_1366x768.png)
-![](https://box.kancloud.cn/76079027c0d079fda05cd443aa5f84de_1366x768.png)
+![](https://box.kancloud.cn/9f3da23e34c4ab3c4d209db10e8c43cf_1366x768.png)
 
 # 安装说明
 
