@@ -1,20 +1,34 @@
-TP5.x - 管理系统
-======
+![](https://box.kancloud.cn/901503ed89e363a1dd81101346bba4eb_1366x768.png)
+![](https://box.kancloud.cn/76079027c0d079fda05cd443aa5f84de_1366x768.png)
+![](https://box.kancloud.cn/76079027c0d079fda05cd443aa5f84de_1366x768.png)
 
-[ 介绍 ]
+# 安装说明
 
-    这是一套使用ThinkPHP5.X开发的基础系统，包含后台用户权限控制，
-	后台用户分组管理、网站系统配置功能，可用他来衍生各种产品。
+###  ① 下载源码包：
+~~~
+你可以通过多种方式下载源码（如HTTP下载，Git克隆），下载之后进入源码目录。
 
-[ 安装方法 ]
+Linux 下可执行下面命令：
 
-    1 创建MYSQL数据库，导入 cms.sql
-    2 把根目录下的/core/config/database.php.bak文件名改成database.php
-	3 根据你的数据库，配置database.php “hostname, database, username, password, hostport”
-	4 后台入口 http://domain/admin
-	5 后台帐号密码 admin admin
-	6 后台菜单设置方法请参考已有的那些菜单
-	7 设置public目录为web可访问目录，参考thinkphp5官方配置
+git clone https://github.com/chenbei360/think.rbac
+~~~
+
+###  ② 导入数据库，并修改 数据库 配置文件：
+~~~
+把根目录下的/core/config/database.php.bak文件名改成database.php
+
+根据你的数据库，配置database.php “hostname, database, username, password, hostport”
+~~~
+
+###  ③ 服务器绑定域名，并将文档根目录设置为源码包 public 目录下，给 runtime 目录可写权限。
+
+#### ④ 访问服务器绑定的域名，如果能访问演示站类似的前台界面，说明您已经安装成功。
+
+##### ⑤ 登录后台，后台使用的帐号与密码均为 admin，登入之后，您可以体验一番。
+
+###### ⑥ 后台菜单设置方法请参考已有的那些菜单
+
+
 ```
 [ 目录结构 ]
     project                		应用部署目录
@@ -45,13 +59,9 @@ TP5.x - 管理系统
     │  ├─home                		前台模板目录
     ├─cms.sql             		数据库文件
 ```
-[ 协议 ]
 
-    本系统除ThinkPHP框架外，遵循MIT开源许可协议发布
-	具体参考LICENSE.txt内容
-
-## (thinkphp3.x RBAC)  : [https://github.com/chenbei360/tpcms/] 后期会推出 LV.x RBAC YII.x RBAC
-
-#### 官方QQ群：192979528 小助手微信 **xunshang100**
-
-
+>[danger] 联系作者 
+Email: 3279867796@qq.com 
+官网：https://www.kancloud.cn/@tpcms
+交流群：192979528
+朕要体验：139.199.168.122/admin  test123 test123
