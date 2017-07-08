@@ -60,8 +60,10 @@ git clone https://github.com/chenbei360/think.rbac
     ├─cms.sql             		数据库文件
 ```
 
->[danger] 联系作者 
+>联系作者 
+~~~
 Email: 3279867796@qq.com 
 官网：https://www.kancloud.cn/@tpcms
 交流群：192979528
 朕要体验：139.199.168.122/admin  test123 test123
+~~~
