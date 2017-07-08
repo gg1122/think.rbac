@@ -6,6 +6,6 @@ class Index extends Home
 {
     public function index()
     {
-        return "home模块 index 控制器 index操作";
+        return $this->fetch('welcome');
     }
 }
