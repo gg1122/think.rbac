@@ -84,7 +84,7 @@ class Node extends Admin
             //根据表单提交的POST数据创建数据对象
             $nodeInfo = $NodeDB->create($this->request->post());
             if(isset($nodeInfo[$nodeInfo->getPk()])){
-                $this->success('添加成功！','/Admin/Node/index');
+                $this->success('添加成功！',url('/Admin/Node/index'));
             }else{
                 $this->error($nodeInfo->getError());
             }
@@ -119,7 +119,7 @@ class Node extends Admin
             //根据表单提交的POST数据创建数据对象
             $nodeInfo = $NodeDB->update($this->request->post());
             if(isset($nodeInfo[$nodeInfo->getPk()])){
-                $this->success('编辑成功！','/Admin/Node/index');
+                $this->success('编辑成功！',url('/Admin/Node/index'));
             }else{
                 $this->error($nodeInfo->getError());
             }

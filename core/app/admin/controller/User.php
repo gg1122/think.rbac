@@ -44,7 +44,7 @@ class User extends Admin
                 $data['role_id'] = input('post.role');
 
                 if(model('RoleUser')->addRoleUser($data)) {
-                    $this->success('添加成功！','/Admin/User/index');
+                    $this->success('添加成功！',url('/Admin/User/index'));
                 } else {
                     $this->error('用户添加成功,但角色对应关系添加失败!');
                 }
